@@ -69,7 +69,7 @@ class Game {
       alert('must insert valid colors for both players')
       location.reload();
     }
-    if (this.allPlayers[0].color === this.allPlayers[1].color) {
+    else if (this.allPlayers[0].color === this.allPlayers[1].color) {
       alert('Players cannot have the same color');
       location.reload();
     }
